@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Расписание</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="error_invalid_email">Неверный почтовый адрес</string>
+    <string name="error_invalid_password">Короткий пароль</string>
+    <string name="error_incorrect_password">Неверный пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+    <string name="permission_rationale">"Необходим доступ к контактам."</string>
+    <string name="April">Апреля</string>
+    <string name="August">Августа</string>
+    <string name="December">Декабря</string>
+    <string name="February">Февраля</string>
+    <string name="January">Января</string>
+    <string name="July">Июля</string>
+    <string name="May">Мая</string>
+    <string name="October">Октября</string>
+    <string name="June">Июня</string>
+    <string name="November">Ноября</string>
+    <string name="March">Марта</string>
+    <string name="action_settings">Настройки</string>
+    <string name="September">Сентября</string>
+    <string name="title_activity_navigation">Расписание</string>
+    <string name="navigation_profile">Профиль</string>
+    <string name="navigation_save">Сохранить</string>
+    <string name="navigation_send">Отправить</string>
+    <string name="navigation_schedule">Расписание</string>
+    <string name="reg_key"><u>Регистрация</u></string>
+    <string name="prompt_group">Группа</string>
+    <string name="reg_button">Регистрация</string>
+    <string name="reg_group">Группа</string>
+    <string name="reg_surname">Фамилия</string>
+    <string name="reg_name">Имя</string>
+</resources>
