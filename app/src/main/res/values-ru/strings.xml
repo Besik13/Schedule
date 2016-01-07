@@ -35,4 +35,5 @@
     <string name="reg_group">Группа</string>
     <string name="reg_surname">Фамилия</string>
     <string name="reg_name">Имя</string>
+    <string name="no_connect">Нет соединения с сервером!</string>
 </resources>
