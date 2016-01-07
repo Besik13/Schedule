@@ -15,13 +15,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <AutoCompleteTextView
+        <Spinner
             android:id="@+id/autoCompleteGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:hint="@string/prompt_group"
-            android:maxLines="1"
-            android:singleLine="true" />
+            android:spinnerMode="dropdown" />
     </android.support.design.widget.TextInputLayout>
 </LinearLayout>
