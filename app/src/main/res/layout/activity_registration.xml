@@ -72,18 +72,6 @@
         android:id="@+id/reg_surname" />
     </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/reg_group"
-        android:id="@+id/reg_group"
-        android:layout_gravity="center_horizontal"
-        android:spinnerMode="dropdown"/>
-    </android.support.design.widget.TextInputLayout>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -10,17 +10,56 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:weightSum="1"
     tools:context=".activities.SettingsActivity">
+    <ProgressBar
+        android:id="@+id/settings_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
 
-    <android.support.design.widget.TextInputLayout
+    <TextView
+        android:id="@+id/departmentStaticSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_department"
+        android:textColor="#777777"
+        android:textSize="22px"
+        />
+    <Spinner
+        android:id="@+id/spinnerDepartment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown" />
 
+    <TextView
+        android:id="@+id/specialtyStaticSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_specialty"
+        android:textColor="#777777"
+        android:textSize="22px"
+        />
+    <Spinner
+        android:id="@+id/spinnerSpecialty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/GroupStaticSmallLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_group"
+            android:textColor="#777777"
+            android:textSize="22px"
+            />
         <Spinner
-            android:id="@+id/autoCompleteGroup"
+            android:id="@+id/spinnerGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:hint="@string/prompt_group"
             android:spinnerMode="dropdown" />
-    </android.support.design.widget.TextInputLayout>
 </LinearLayout>
