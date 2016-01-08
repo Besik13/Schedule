@@ -50,5 +50,22 @@ public class ServerCommand {
         return ServerSettings.SERVER_URL + "/add_user";
     }
 
+    public final static String getInfo(String what, String from, String where, String eq)
+    {
+        String query = ServerSettings.SERVER_URL+"/info?";
+        query+="what="+what;
+        query+="&from="+from;
+        query+="&where="+where;
+        query+="&eq="+eq;
+        return query;
+    }
+    public final static String getInfo(String what, String from, String where)
+    {
+        String query = ServerSettings.SERVER_URL+"/info?";
+        query+="what="+what;
+        query+="&from="+from;
+        query+="&where="+where;
+        return query;
+    }
 
 }
