@@ -76,4 +76,7 @@
     <string name="reg_group">Group</string>
     <string name="reg_button">Registration</string>
     <string name="no_connect">No connection to the server!</string>
+    <string name="settings_department">Department</string>
+    <string name="settings_specialty">Specialty</string>
+    <string name="settings_group">Group</string>
 </resources>

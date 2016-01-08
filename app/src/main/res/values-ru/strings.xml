@@ -36,4 +36,8 @@
     <string name="reg_surname">Фамилия</string>
     <string name="reg_name">Имя</string>
     <string name="no_connect">Нет соединения с сервером!</string>
+    <string name="settings_group_sel">Выберете группу</string>
+    <string name="settings_department">Факультет</string>
+    <string name="settings_specialty">Специальность</string>
+    <string name="settings_group">Группа</string>
 </resources>
